@@ -4,6 +4,6 @@ const indexModule = (process.env.MAIN ? path.resolve(process.env.MAIN) : path.jo
 const {default: filterNil} = indexModule
 
 it("should run", () => {
-  const result = filterNil()
-  expect(result).toBeGreaterThan(1549410770)
+  const result = filterNil(["a", null, "b", , "c", undefined, "d"]) // eslint-disable-line no-sparse-arrays
+  expect(result).toStrictEqual(["a", "b", "c", "d"])
 })

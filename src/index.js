@@ -1,11 +1,18 @@
 /** @module filter-nil */
 
+import {isNil} from "lodash"
+
 /**
- * Returns the number of seconds passed since Unix epoch (01 January 1970)
+ * Returns the passed array without entries that are `null` or `undefined`
  * @example
  * import filterNil from "filter-nil"
- * filterNil()
- * // 1549410770
- * @returns {number} Seconds since epoch
+ * const result = filterNil(["a", null, "b", , "c", undefined, "d")
+ * ["a", "b", "c", "d"]
+ * @returns {*[]} Cleaned array
  */
-export default () => Math.floor(Date.now() / 1000)
+export default array => {
+  if (!Array.isArray(array)) {
+    return []
+  }
+  return array.filter(value => !isNil(value))
+}
