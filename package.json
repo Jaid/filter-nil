@@ -31,5 +31,6 @@
     "test:debug": "DEBUG=\"$(basename $PWD),$(basename $PWD):*\" NODE_ENV=test node --inspect=9229 node_modules/jest/bin/jest.js --runInBand",
     "prepareActionJest": "npm run build:prod"
   },
-  "name": "filter-nil"
+  "name": "filter-nil",
+  "description": "Filters array entries that are null or undefined."
 }
