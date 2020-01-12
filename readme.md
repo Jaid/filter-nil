@@ -36,24 +36,6 @@ yarn add filter-nil@^1.0.1
 ```
 
 
-## Try it out
-
-
-
-Open a browser's JavaScript console and execute:
-
-```javascript
-const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type", "text/javascript");
-scriptElement.setAttribute("src", "https://cdn.jsdelivr.net/npm/filter-nil@1.0.1/index.js");
-document.querySelector("head").appendChild(scriptElement);
-```
-
-filter-nil is now stored in the global variable `filterNil`. The following console expression should return something other than `"undefined"`.
-
-```javascript
-typeof filterNil.default
-```
 
 
 
