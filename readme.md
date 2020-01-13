@@ -1,9 +1,9 @@
 # filter-nil
 
 
-<a href="https://raw.githubusercontent.com/Jaid/filter-nil/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/filter-nil?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/filter-nil/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Ffilter-nil%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/filter-nil/commits"><img src="https://img.shields.io/github/commits-since/Jaid/filter-nil/v1.0.1?style=flat-square&logo=github" alt="Commits since v1.0.1"/></a> <a href="https://github.com/Jaid/filter-nil/commits"><img src="https://img.shields.io/github/last-commit/Jaid/filter-nil?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/filter-nil/issues"><img src="https://img.shields.io/github/issues/Jaid/filter-nil?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/filter-nil"><img src="https://img.shields.io/npm/v/filter-nil?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/filter-nil/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/filter-nil?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/filter-nil"><img src="https://img.shields.io/npm/dm/filter-nil?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/filter-nil/master/license.txt"><img src="https://img.shields.io/github/license/jaid/filter-nil?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor filter-nil"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/filter-nil/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Ffilter-nil%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/filter-nil/commits"><img src="https://img.shields.io/github/commits-since/jaid/filter-nil/v1.0.1?style=flat-square&logo=github" alt="Commits since v1.0.1"/></a> <a href="https://github.com/jaid/filter-nil/commits"><img src="https://img.shields.io/github/last-commit/jaid/filter-nil?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/filter-nil/issues"><img src="https://img.shields.io/github/issues/jaid/filter-nil?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/filter-nil"><img src="https://img.shields.io/npm/v/filter-nil?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/filter-nil/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/filter-nil?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/filter-nil"><img src="https://img.shields.io/npm/dm/filter-nil?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Filters array entries that are null or undefined.**
 
@@ -41,14 +41,13 @@ yarn add filter-nil@^1.0.1
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/filter-nil.git
+git clone git@github.com:jaid/filter-nil.git
 cd filter-nil
 npm install
 ```
