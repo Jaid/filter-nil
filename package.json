@@ -33,5 +33,9 @@
   },
   "name": "filter-nil",
   "description": "Filters array entries that are null or undefined.",
-  "funding": "https://github.com/sponsors/jaid"
+  "funding": "https://github.com/sponsors/jaid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaid/filter-nil"
+  }
 }
