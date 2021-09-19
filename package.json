@@ -49,5 +49,6 @@
     "undefined",
     "util",
     "utility"
-  ]
+  ],
+  "type": "module"
 }
